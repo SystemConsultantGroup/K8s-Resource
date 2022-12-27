@@ -13,7 +13,13 @@ spec:
         app: nginx
     spec:
       containers:
-      - name: nginx
-        image: httpd
-        ports:
-        - containerPort: 80
+        - name: nginx
+          image: httpd
+          ports:
+            - containerPort: 80
+  spec:
+    containers:
+      - image: |-
+          sce06147/scg-2023:sce06147/scg-2023:2022.12.27-e53bb46
+          sce06147/scg-2023:latest
+          sce06147/scg-2023:latest
