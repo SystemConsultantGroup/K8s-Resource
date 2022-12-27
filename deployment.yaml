@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: sce06147/scg-2023:9e4dbd3791b209b613b8d711c2279af079acdc85
+          image: sce06147/scg-2023:f4f8a0c2dd27bb4b62c11d2e92fa41ea9d293624
           ports:
             - containerPort: 80
