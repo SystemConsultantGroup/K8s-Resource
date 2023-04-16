@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: registry.scg.skku.ac.kr/scg-2023:latest
+          image: registry.scg.skku.ac.kr/scg-2023:15476050195a93dac0a540cd9541b5fc1a0cc92c
           ports:
             - containerPort: 80
